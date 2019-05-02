@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/foto_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:src="@drawable/common_google_signin_btn_icon_dark_focused"/>
+
+    <Button
+        android:id="@+id/foto_yukle_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yükle" />
+</LinearLayout>

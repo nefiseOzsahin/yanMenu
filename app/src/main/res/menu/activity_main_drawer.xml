@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Ansayfa" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Profilim" />
+
+        <item
+            android:id="@+id/nav_notes"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Notlarım" />
+
+        <item
+            android:id="@+id/nav_photo"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Profil değiştir" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_cikis"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Çıkış" />
+
+        </menu>
+    </item>
+
+</menu>
